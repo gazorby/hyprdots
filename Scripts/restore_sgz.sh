@@ -75,16 +75,15 @@ else
 fi
 
 
-# zsh
-if pkg_installed zsh
+# fish
+if pkg_installed fish
     then
 
-    if [ "$SHELL" != "/usr/bin/zsh" ] ; then
-        echo "changing shell to zsh..."
-        chsh -s $(which zsh)
+    if [ "$SHELL" != "/usr/bin/fish" ] ; then
+        echo "changing shell to fish..."
+        chsh -s $(which fish)
     fi
 
 else
-    echo "WARNING: zsh is not installed..."
+    echo "WARNING: fish is not installed..."
 fi
-

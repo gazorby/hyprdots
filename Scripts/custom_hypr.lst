@@ -47,13 +47,11 @@ vim
 ark
 exa
 fd
+fish
 ripgrep
 bat
 btop
 hexyl
 fish
 starship
-zsh-theme-powerlevel10k-git
-zsh-syntax-highlighting-git
-zsh-autosuggestions-git
 pokemon-colorscripts-git

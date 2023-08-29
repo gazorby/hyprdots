@@ -1,7 +1,7 @@
 # --// Hyprdots //--
 
 <p align="center">
-  <img width="250" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_arch.png">   
+  <img width="250" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_arch.png">
 </p>
 
 
@@ -10,8 +10,8 @@
 https://user-images.githubusercontent.com/106020512/235429801-e8b8dae2-c1ad-4e23-9aa2-b1edb6cabe99.mp4
 
 <p align="center">
-    <img align="center" width="48%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_1.png" /> <img align="center" width="48%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_2.png" />   
-    <img align="center" width="48%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_3.png" /> <img align="center" width="48%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_4.png" />   
+    <img align="center" width="48%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_1.png" /> <img align="center" width="48%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_2.png" />
+    <img align="center" width="48%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_3.png" /> <img align="center" width="48%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_4.png" />
 </p>
 
 
@@ -22,8 +22,8 @@ For Debian, please refer **Senshi111**'s version [here](https://github.com/Sensh
 
 > **Warning**
 >
-> Install script will auto-detect nvidia card and install nvidia-dkms drivers for your kernel.   
-> Nvidia drm will be enabled in grub, so please [ensure](https://wiki.archlinux.org/title/NVIDIA) your nvidia card supports dkms drivers/hyprland.   
+> Install script will auto-detect nvidia card and install nvidia-dkms drivers for your kernel.
+> Nvidia drm will be enabled in grub, so please [ensure](https://wiki.archlinux.org/title/NVIDIA) your nvidia card supports dkms drivers/hyprland.
 
 After minimal Arch install (with grub), clone and execute -
 ```shell
@@ -40,7 +40,7 @@ cd ~/Hyprdots/Scripts
 >./install.sh custom_apps.lst
 >```
 
-Please reboot after the install script completes and takes you to sddm login screen (or black screen) for the first time.   
+Please reboot after the install script completes and takes you to sddm login screen (or black screen) for the first time.
 For more details, please refer [installation.md](https://github.com/prasanthrangan/hyprdots/blob/main/installation.md)
 
 
@@ -208,12 +208,8 @@ ark | kde file archiver
 
 | shell | |
 | :-- | --- |
-zsh | main shell
+fish | main shell
 exa | colorful file lister
-oh-my-zsh-git | for zsh plugins
-zsh-theme-powerlevel10k-git | theme for zsh
-zsh-syntax-highlighting-git | highlighting of commands
-zsh-autosuggestions-git | see completion as you type
 pokemon-colorscripts-git | display pokemon sprites
 
 </details>
@@ -244,7 +240,7 @@ pokemon-colorscripts-git | display pokemon sprites
 | `Super` + `Backspace` | logout menu
 | `Super` + `P` | screenshot snip
 | `Super` + `Alt` + `P` | print current screen
-| `Super` + `RightClick` | resize the window 
+| `Super` + `RightClick` | resize the window
 | `Super` + `LeftClick` | change the window position
 | `Super` + `MouseScroll` | cycle through workspaces
 | `Super` + `Shift` + `←` `→` `↑` `↓` | resize windows (hold)
@@ -305,4 +301,3 @@ pokemon-colorscripts-git | display pokemon sprites
 - [ ] Flatpak QT apps does not follow system theme
 
 </details>
-
